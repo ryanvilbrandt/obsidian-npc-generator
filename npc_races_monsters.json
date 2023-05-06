@@ -1,0 +1,100 @@
+{
+  "Bugbear": {
+    "atk_cr": -1,
+    "special_abilities": [
+      "***Brute.*** A melee weapon deals one extra die of its damage when the bugbear hits with it.",
+      "***Surprise Attack.*** If the bugbear surprises a creature and hits it with an attack during the first round of combat, the target takes an extra {damage} damage from the attack."
+    ]
+  },
+  "Goblin": {
+    "def_cr": -1,
+    "reactions": [
+      "***Painful Tumble.*** When {name} is hit by an attack, it may gain resistance to the attack's damage, move up to half its speed away from the attacker without provoking opportunity attacks, and land prone."
+    ]
+  },
+  "Hobgoblin": {
+    "special_abilities": [
+      "***Martial Advantage.*** Once per turn, the hobgoblin can deal an extra {damage} damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the hobgoblin that isn't incapacitated."
+    ]
+  },
+  "Kobold": {
+    "special_abilities": [
+      "***Sunlight Sensitivity.*** While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.",
+      "***Pack Tactics.*** The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't incapacitated."
+    ]
+  },
+  "Orc": {
+    "special_abilities": [
+      "***Aggressive.*** As a bonus action, the orc can move up to its speed toward a hostile creature that it can see."
+    ]
+  },
+  "Duergar": {
+    "atk_cr": -1,
+    "def_cr": -1,
+    "speed": "25 ft.",
+    "special_abilities": [
+      "***Duergar Resilience.*** The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being charmed or paralyzed.",
+      "***Sunlight Sensitivity.*** While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+    ],
+    "actions": [
+      "***Enlarge.*** For 1 minute, the duergar magically increases in size, along with anything it is wearing or carrying. While enlarged, the duergar is Large, doubles its damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If the duergar lacks the room to become Large, it attains the maximum size possible in the space available.",
+      "***Invisibility.*** The duergar magically turns invisible until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it."
+    ]
+  },
+  "Gnoll": {
+    "special_abilities": [
+      "***Rampage.*** When the gnoll reduces a creature to 0 hit points with a melee attack on its turn, the gnoll can take a bonus action to move up to half its speed and make an attack."
+    ]
+  },
+  "Wolf": {
+    "atk_cr": -1,
+    "special_abilities": [
+      "***Keen Hearing and Smell.*** The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
+      "***Pack Tactics.*** The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't incapacitated."
+    ]
+  },
+  "Boar": {
+    "special_abilities": [
+      "***Charge.*** If the boar moves up to 10 feet before attacking, it can do a single weapon attack that does double damage. If it hits, the enemy must make a DC {save_dc} Strength saving throw or be knocked prone."
+    ]
+  },
+  "Skeleton": {
+    "damage_vulnerabilities": [
+      "bludgeoning"
+    ]
+  },
+  "Zombie": {
+    "damage_immunities": [
+      "poison"
+    ],
+    "condition_immunities": [
+      "poisoned"
+    ],
+    "special_abilities": [
+      "***Undead Fortitude.*** If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+    ]
+  },
+  "Quasit": {
+    "damage_resistances": [
+      "cold, fire, lightning; bludgeoning, piercing, and slashing from non-magical attacks"
+    ],
+    "damage_immunities": [
+      "poison"
+    ],
+    "condition_immunities": [
+      "poisoned"
+    ],
+    "senses": [
+      "Darkvision 120 ft."
+    ],
+    "special_abilities": [
+      "***Shapechanger.*** The quasit can use its action to polymorph into a beast form that resembles a bat (speed 10 ft. fly 40 ft.), a centipede (40 ft., climb 40 ft.), or a toad (40 ft., swim 40 ft.), or back into its true form. Its statistics are the same in each form, except for the speed changes noted. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.",
+      "***Magic Resistance.*** The quasit has advantage on saving throws against spells and other magical effects."
+    ],
+    "actions": [
+      "***Claws (Bite in Beast Form).*** The quasit makes a weapon attack. If the target takes damage, he must succeed on a DC {save_dc} Constitution saving throw or take {damage} poison damage and become poisoned for 1 minute. The target can repeat the saving throw at the end of each of his turns, ending the effect on himself on a success.",
+      "***Scare (1/Day).*** One creature of the quasit's choice within 20 feet of it must succeed on a DC {save_dc} Wisdom saving throw or be frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, with disadvantage if the quasit is within line of sight, ending the effect on itself on a success.",
+      "***Invisibility.*** The quasit magically turns invisible until it attacks or uses Scare, or until its concentration ends (as if concentrating on a spell). Any equipment the quasit wears or carries is invisible with it."
+    ]
+  }
+}

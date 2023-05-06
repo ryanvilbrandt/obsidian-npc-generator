@@ -1,0 +1,12 @@
+{
+  "Elezen": {
+    "speed": "35 ft."
+  },
+  "Moogle": {
+    "atk_cr": -1,
+    "speed": "0 ft., fly 40 ft.",
+    "actions": [
+      "***Invisibility.*** The moogle magically turns invisible until it attacks, casts a spell, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the moogle wears or carries is invisible with it."
+    ]
+  }
+}

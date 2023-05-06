@@ -1,0 +1,113 @@
+{
+  "Human": {},
+  "Dwarf": {
+    "speed": "25 ft.",
+    "damage_resistances": [
+      "poison"
+    ],
+    "senses": [
+      "darkvision 60 ft."
+    ],
+    "special_abilities": [
+      "***Dwarven Resilience.*** The dwarf has advantage on saving throws against poison, and has resistance against poison damage."
+    ]
+  },
+  "Elf": {
+    "senses": [
+      "darkvision 60 ft."
+    ],
+    "special_abilities": [
+      "***Fey Ancestry.*** The elf has advantage on saving throws against being charmed, and magic can't put him to sleep."
+    ]
+  },
+  "Halfling": {
+    "speed": "25 ft.",
+    "senses": [
+      "darkvision 60 ft."
+    ],
+    "special_abilities": [
+      "***Brave.*** The halfling has advantage on any saving throws against being frightened.",
+      "***Halfling Nimbleness.*** The halfling can move through the space of a medium or larger creature."
+    ]
+  },
+  "Dragonborn": {
+    "damage_resistances": [
+      "fire"
+    ],
+    "actions": [
+      "***Breath Weapon (Recharge 5-6).*** The dragonborn can use his action to exhale a 15-foot cone of fire. Each creature in the cone must make a DC {save_dc} Dexterity saving throw, taking {damage} fire damage on a failed save, or half as much damage on a successful one."
+    ]
+  },
+  "Gnome": {
+    "speed": "25 ft.",
+    "senses": [
+      "darkvision 60 ft."
+    ],
+    "special_abilities": [
+      "***Gnome Cunning.*** The gnome has advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
+    ]
+  },
+  "Half-elf": {
+    "senses": [
+      "darkvision 60 ft."
+    ],
+    "special_abilities": [
+      "***Fey Ancestry.*** {name} has advantage on saving throws against being charmed, and magic can't put him to sleep."
+    ]
+  },
+  "Half-orc": {
+    "senses": [
+      "darkvision 60 ft."
+    ],
+    "special_abilities": [
+      "***Relentless Endurance.*** When reduced to 0 hit points, the half-orc drops to 1 hit point instead (but can't do this again until he finishes a long rest).",
+      "***Savage Attacks.*** When he scores a critical hit, the half-orc can roll one of the weapon's damage dice and add it to the extra damage of the critical hit."
+    ]
+  },
+  "Tiefling": {
+    "damage_resistances": [
+      "fire"
+    ],
+    "senses": [
+      "darkvision 60 ft."
+    ],
+    "reactions": [
+      "***Hellish Rebuke (1/day).*** When the tiefling takes damage from a creature within 60 feet that he can see, he can lash out with hellish flames. The creature must make a Dexterity saving throw (DC {save_dc}). It takes {damage} fire damage on a failed save, or half as much damage on a successful one."
+    ]
+  },
+  "Aarakocra": {
+    "speed": "20 ft., fly 50 ft.",
+    "special_abilities": [
+      "***Dive Attack.*** If the aarakocra is flying and dives at least 30 feet straight toward a target and then hits it with a melee weapon attack, the attack deals an extra 3 (1d6) damage to the target."
+    ]
+  },
+  "Deep Gnome": {
+    "speed": "20 ft.",
+    "senses": [
+      "darkvision 120 ft."
+    ],
+    "special_abilities": [
+      "***Gnome Cunning.*** The deep gnome has advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
+    ]
+  },
+  "Goliath": {
+    "reactions": [
+      "***Stone's Endurance (Recharge 5-6).*** When the goliath takes damage, he can use his reaction to reduce the damage taken by {damage}."
+    ]
+  },
+  "Kenku": {
+    "special_abilities": [
+      "***Ambusher.*** In the first round of a combat, the kenku has advantage on attack rolls against any creature it surprised.",
+      "***Mimicry.*** The kenku can mimic any sounds it has heard, including voices. A creature that hears the sounds can tell they are imitations with a successful DC {save_dc} Wisdom (Insight) check."
+    ]
+  },
+  "Tabaxi": {
+    "speed": "30 ft., climb 20 ft.",
+    "senses": [
+      "darkvision 60 ft."
+    ],
+    "special_abilities": [
+      "***Feline Agility.*** When the tabaxi moves on its turn in combat, it can double its speed until the end of the turn. Once it uses this ability, the tabaxi can't use it again until it moves 0 feet on one of its turns."
+    ]
+  }
+}
